@@ -6,13 +6,15 @@ body {
 
 #selected-text {
     border: 1px dashed lightgrey;
-    min-height: 30px; 
+    min-height: 30px;
+    padding: 15px;
 }
 
 #server-response {
     border: 1px dashed lightgrey;
     min-height: 30px;
     font-family: monospace;
+    padding: 15px;
 }
 
 .error-message {
