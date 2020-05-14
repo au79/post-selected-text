@@ -1,12 +1,22 @@
 body {
     margin: 10px;
     background-color: #202023;
-    color: rgb(249, 249, 250)
+    color: rgb(249, 249, 250);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
 }
 
 #selected-text {
     border: 1px dashed lightgrey;
     min-height: 30px;
+    font-family: Georgia, serif;
     padding: 15px;
 }
 
@@ -21,3 +31,4 @@ body {
     font-style: italic;
     color: rgb(255, 64, 64)
 }
+
